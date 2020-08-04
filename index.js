@@ -33,6 +33,6 @@ function greet(timing){
 function displayMessage(msg){
   
  let content= document.getElementById("greeting");
- content.inner=msg;
+ content.innerText=msg;
  console.log(msg);
 }
