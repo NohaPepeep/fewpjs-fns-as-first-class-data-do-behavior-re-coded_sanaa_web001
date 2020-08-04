@@ -15,13 +15,13 @@ function greet(timing){
   let M = timing.split(':');
   let L=parseInt(M[0]);
   console.log(L);
-  if(L<12&&L==0){
+  if(L<12){
     return "Good Morning";
   }
   else if(L>=12&&L<=17){
     return "Good Afternoon";
   }
-  else if(L>17&&L<24){
+  else if(L>17){
     return "Good Evening";
   }
   else{
